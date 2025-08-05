@@ -65,8 +65,8 @@ const Hero = () => {
 					{/* Profile Image Placeholder */}
 					<div className='flex justify-center lg:justify-end'>
 						<div className='relative'>
-							<div className='w-96 h-96 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-full flex items-center justify-center shadow-2xl'>
-								<div className='w-88 h-88 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center overflow-hidden'>
+							<div className='w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-full flex items-center justify-center shadow-2xl'>
+								<div className='w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-88 lg:h-88 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center overflow-hidden'>
 									<img
 										src={headshotImage}
 										alt='Chung Hue Nhu'
@@ -74,11 +74,11 @@ const Hero = () => {
 									/>
 								</div>
 							</div>
-							<div className='absolute -top-6 -right-6 w-20 h-20 bg-orange-500 rounded-full flex items-center justify-center animate-bounce'>
-								<Code className='h-10 w-10 text-white' />
+							<div className='absolute -top-3 -right-3 sm:-top-4 sm:-right-4 md:-top-5 md:-right-5 lg:-top-6 lg:-right-6 w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 bg-orange-500 rounded-full flex items-center justify-center animate-bounce'>
+								<Code className='h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 lg:h-10 lg:w-10 text-white' />
 							</div>
-							<div className='absolute -bottom-6 -left-6 w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center animate-pulse'>
-								<Palette className='h-8 w-8 text-white' />
+							<div className='absolute -bottom-3 -left-3 sm:-bottom-4 sm:-left-4 md:-bottom-5 md:-left-5 lg:-bottom-6 lg:-left-6 w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-purple-500 rounded-full flex items-center justify-center animate-pulse'>
+								<Palette className='h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 lg:h-8 lg:w-8 text-white' />
 							</div>
 						</div>
 					</div>
